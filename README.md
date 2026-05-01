@@ -30,13 +30,3 @@ The system is divided into four secure, role-based dashboards:
 * **Database:** MySQL
 * **Architecture:** Client-Server with Single Page Application (SPA) style navigation.
 
-## 🚀 Installation & Setup (Local Development)
-
-To run this project locally on your machine, follow these steps:
-
-1. **Prerequisites:** 
-   * Install a local server environment like [XAMPP](https://www.apachefriends.org/) or WAMP.
-   * Ensure Apache and MySQL are running.
-2. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/your-username/rentverse.git](https://github.com/your-username/rentverse.git)
