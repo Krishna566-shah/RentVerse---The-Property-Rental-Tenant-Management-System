@@ -1,0 +1,153 @@
+/* 
+   Rentverse Custom Styles
+   Theme: Red (#dc3545) & White
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1a1a1a;
+    background-color: #eabbbb;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.tracking-widest {
+    letter-spacing: 0.15em;
+}
+
+.tracking-tighter {
+    letter-spacing: -0.05em;
+}
+
+/* Logo Styles */
+.logo-box {
+    width: 40px;
+    height: 40px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.brand-text {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: #dc3545;
+}
+
+.logo-box-sm {
+    width: 32px;
+    height: 32px;
+    background-color: #dc3545;
+    color: rgb(252, 67, 67);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.brand-text-sm {
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: #dc3545;
+}
+
+/* Form Styles */
+.focus-danger:focus {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.1) !important;
+}
+
+.star-btn {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.star-btn:hover {
+    transform: scale(1.2);
+}
+
+/* Card Styles */
+.review-card {
+    transition: all 0.3s ease;
+    border: 1px solid #f8f9fa;
+}
+
+.review-card:hover {
+    border-color: #f8d7da;
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(220, 53, 69, 0.075) !important;
+}
+
+.avatar-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/* Utilities */
+.max-w-300 {
+    max-width: 300px;
+}
+
+.hover-danger:hover {
+    color: #dc3545 !important;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: white;
+}
+
+.social-icon:hover {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.reviews-container {
+    max-height: 700px;
+    overflow-y: auto;
+}
+
+/* Custom Scrollbar */
+.reviews-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.reviews-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.reviews-container::-webkit-scrollbar-thumb {
+    background: #f8d7da;
+    border-radius: 10px;
+}
+
+.reviews-container::-webkit-scrollbar-thumb:hover {
+    background: #f5c2c7;
+}

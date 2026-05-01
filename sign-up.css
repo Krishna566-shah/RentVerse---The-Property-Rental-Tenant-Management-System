@@ -1,0 +1,134 @@
+/* =======================
+   SIGN UP PAGE STYLES
+======================= */
+
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  /* Page fade-in */
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/*page load animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+form {
+  animation: slideUp 0.7s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #d10000;
+}
+
+.custom-input {
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #e60000;
+  box-shadow: 0 0 0 0.15rem rgba(230, 0, 0, 0.15);
+  transform: scale(1.01);
+}
+
+.rentverse-title {
+  color: #e60000;
+  font-weight: 700;
+  font-size: 96px;
+  font-family: 'Italiana', serif;
+}
+
+.btn-danger {
+  background-color: #d10000;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #b80000;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(209, 0, 0, 0.3);
+}
+
+.btn-danger:active {
+  transform: scale(0.97);
+}
+
+.link-red {
+  color: #e60000;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #f7f3f3;
+  line-height: 1.6;
+  background-color:#d10000;
+    padding:10px;
+    text-align:center;
+    border-radius:10px;
+    width:100%;
+}
+
+/* Banner */
+.signup-banner {
+  background-image: url("signup-banner.png");
+  background-size: cover;
+  background-position: center;
+  animation: bannerFade 1s ease-in-out;
+}
+
+
+@keyframes bannerFade {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/* Responsive */
+@media (max-width: 991px) {
+  .signup-banner {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .rentverse-title {
+    font-size: 26px;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+}
